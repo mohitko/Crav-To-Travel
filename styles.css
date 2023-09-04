@@ -1,0 +1,59 @@
+/* Master page styling  */
+
+/* Reset some default styles */
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Style the top toggle bar */
+.top-bar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+
+.top-bar .logo {
+    font-size: 24px;
+}
+
+
+.top-bar .navigation {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+.top-bar .navigation li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Style the content area */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Style login/logout buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Style the home page differently */
+#index .content {
+    background-color: #f2f2f2;
+}
